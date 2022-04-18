@@ -2,7 +2,7 @@
 // By Byung, Chris, Andy From CPP FAST Blockchain Team
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/utils/Strings.sol";
+import "@openzeppelin/artifacts/utils/Strings.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "hardhat/console.sol";
@@ -62,18 +62,6 @@ contract MyEpicNFT is ERC721URIStorage {
     constructor() ERC721("FASTBLOCKCHAIN", "CPPFAST") {
         console.log("This is my NFT contract. Woah!");
     }
-
-    // function pickRandomFirstWord(uint256 tokenId)
-    //     public
-    //     view
-    //     returns (string memory)
-    // {
-    //     uint256 rand = random(
-    //         string(abi.encodePacked("FIRST_WORD", Strings.toString(tokenId)))
-    //     );
-    //     rand = rand % firstWords.length;
-    //     return firstWords[rand];
-    // }
 
     function randomBackgroundColor(uint256 tokenId)
         public

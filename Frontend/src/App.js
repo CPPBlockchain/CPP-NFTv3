@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import './styles/App.css';
-import twitterLogo from './assets/fast_logo.svg';
+import FASTlogo from './assets/fast_logo.svg';
 import { ethers } from "ethers";
 import myEpicNft from "./Utils/MyEpicNFT.json"
 
-const TWITTER_HANDLE = 'https://cppfast.org/';
-const TWITTER_LINK = `https://cppfast.org/`;
+const FAST_LOGO = 'https://cppfast.org/';
+const URL_LINK = `https://cppfast.org/`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 100;
 
@@ -118,13 +118,13 @@ const App = () => {
           )}
         </div>
         <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
+          <img alt="Fast Logo" className="fast-logo" src={FASTlogo} />
           <a
             className="footer-text"
-            href={TWITTER_LINK}
+            href={URL_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`${TWITTER_HANDLE}`}</a>
+          >{`${FAST_LOGO}`}</a>
         </div>
       </div>
     </div>
