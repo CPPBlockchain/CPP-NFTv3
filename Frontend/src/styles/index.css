@@ -21,11 +21,12 @@ code {
   width: 400px;
   height: 400px;
 
-  position: absolute;
+  position: relative;
+  text-align: center;
   left: 50%;
   top: 50%;
-  margin-top: -475px;
-  margin-left: -200px;
+  margin-top: -875px;
+  margin-left: -275px;
   font-family: monospace;
   color: #00ff15;
 }
