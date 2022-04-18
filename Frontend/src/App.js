@@ -116,12 +116,6 @@ const App = () => {
         </div>
         <div className="footer-container">
           <img alt="Fast Logo" className="fast-logo" src={FASTlogo} />
-          <a
-            className="footer-text"
-            href={URL_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >{`${FAST_LOGO}`}</a>
         </div>
       </div>
     </div>
