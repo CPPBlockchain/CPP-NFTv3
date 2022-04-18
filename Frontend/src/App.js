@@ -105,10 +105,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header gradient-text">CPP FAST NFT Collection</p>
-          <p className="sub-text">
-            Click Button to get FAST NFT
-          </p>
+          {/* <p className="header gradient-text">CPP FAST NFT Collection</p> */}
           {currentAccount === "" ? (
             renderNotConnectedContainer()
           ) : (
