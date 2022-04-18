@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './styles/App.css';
-import FASTlogo from './assets/fast_logo.svg';
+import FASTlogo from './assets/fast.png';
 import { ethers } from "ethers";
 import myEpicNft from "./Utils/MyEpicNFT.json"
 
